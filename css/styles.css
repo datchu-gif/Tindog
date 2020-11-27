@@ -1,0 +1,171 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+#title{
+  background-color: #ff4c68;
+  color: white;
+}
+.first-h{
+  font-family: 'Montserrat-Black', sans-serif;
+  line-height: 1.5;
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+h2{
+  font-family: 'Montserrat-black';
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.final-h{
+  font-family: 'Montserrat-Black';
+  padding-top:3%;
+  color:white;
+  font-weight:bolder;
+  line-height: 1.5;
+  font-size: 3.5rem;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+/* navigation */
+
+.navbar{
+  padding:0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 16%;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat-black';
+}
+/* buttons */
+
+.download-button{
+  margin:18% 3% 7% 0;
+}
+.downloadi-button{
+  margin:3% 3% 3% 0;
+}
+/* image */
+
+.doggie{
+  width:900%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+#features{
+  text-align: center;
+  background-color: white;
+  position: relative;
+  z-index:1;
+
+
+}
+.feauture-box{
+  text-align: center;
+  padding: 6.5%
+}
+.far{
+
+  color:#ef8172;
+}
+.fas{
+  color: #ef8172;
+}
+.eas{
+  font-family: 'Montserrat-black';
+  font-weight: bolder;
+  padding:5% 0 0 0;
+}
+.far:hover{
+color:#ff4c68
+}
+.fas:hover{
+color:#ff4c68
+}
+
+.dogg{
+  font-family: 'Montserrat-black';
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+.human{
+  font-family: 'Montserrat-black';
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+#testimonials{
+
+  padding:7% 15%;
+  text-align: center;
+  background-color:#ef8172;
+  color: white;
+
+
+}
+
+.test-img1{
+  border-radius: 100%;
+  margin:20px;
+  width:10%;
+}
+.test-img2{
+  border-radius: 100%;
+  margin:20px;
+  width:10%;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+
+}
+
+.press{
+  width:13%;
+  margin:20px 20px 50px ;
+}
+#pricing{
+  padding:100px;
+  text-align: center;
+}
+.pric{
+  padding:3% 2%;
+
+}
+@media (max-width:1000px) {
+  .doggie{
+    width:100%;
+  position: static;
+  transform: rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
+}
+#cta{
+  background-color:#ff4c68;
+  text-align:center;
+  padding: 5% 0;
+}
+
+#footer{
+  margin: 2% 2% 2% 2%;
+  text-align: center;
+}
+.final-p{
+  padding-top:2%;
+
+}
+.bye{
+  margin:0 20px;
+}
